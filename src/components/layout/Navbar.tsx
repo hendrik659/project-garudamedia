@@ -179,7 +179,7 @@ export default function Navbar() {
             hover:shadow-xl
             md:block
           ">
-            Pasang WiFi
+            Langganan Sekarang
           </button>
 
 
@@ -254,7 +254,7 @@ export default function Navbar() {
               font-semibold
               text-white
             ">
-              Pasang WiFi
+              Langganan Sekarang
             </button>
 
           </div>
