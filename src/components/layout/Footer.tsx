@@ -31,12 +31,12 @@ export default function Footer() {
               className="inline-block rounded-md bg-white px-3 py-2"
             >
               <Image
-                src="/images/logo-gmt.png"
-                alt="Garuda Media Telematika 2.0 Jombang"
-                width={1024}
-                height={1024}
-                className="h-20 w-20 object-contain"
-                sizes="80px"
+                src="/images/garudamedianet.png"
+                alt="Garuda Media Net"
+                width={1991}
+                height={277}
+                className="h-auto w-[170px]"
+                sizes="170px"
               />
             </Link>
             <p className="mt-5 max-w-sm text-sm leading-7 text-white/70">
