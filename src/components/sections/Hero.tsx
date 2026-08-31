@@ -27,7 +27,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative isolate overflow-hidden bg-[linear-gradient(145deg,#f7fbff_0%,#ffffff_52%,#eef8ff_100%)] pb-10 pt-28 md:pb-20 md:pt-32 lg:min-h-[760px]"
+      className="relative isolate overflow-hidden bg-[linear-gradient(145deg,#f7fbff_0%,#ffffff_52%,#eef8ff_100%)] pb-8 pt-24 sm:pb-10 sm:pt-28 md:pb-20 md:pt-32 lg:min-h-[760px]"
     >
       <div
         aria-hidden="true"
@@ -43,7 +43,7 @@ export default function Hero() {
           <motion.div initial="hidden" animate="show" className="relative z-10">
             <motion.p
               variants={fadeUp}
-              className="inline-flex items-center gap-2 rounded-full border border-[var(--gmt-primary)]/15 bg-white/80 px-4 py-2 text-xs font-bold tracking-wide text-[var(--gmt-primary)] shadow-sm sm:text-sm"
+              className="inline-flex items-center gap-2 rounded-full border border-[var(--gmt-primary)]/15 bg-white/70 px-3 py-1.5 text-[11px] font-bold tracking-wide text-[var(--gmt-primary)] sm:bg-white/80 sm:px-4 sm:py-2 sm:text-sm sm:shadow-sm"
             >
               <span className="h-2 w-2 rounded-full bg-emerald-500" aria-hidden="true" />
               Internet lokal terpercaya di Jombang
@@ -51,7 +51,7 @@ export default function Hero() {
 
             <motion.h1
               variants={fadeUp}
-              className="mt-5 max-w-3xl text-4xl font-black leading-[1.08] tracking-[-0.035em] text-[var(--gmt-dark)] sm:mt-6 sm:text-5xl lg:text-[3.9rem]"
+              className="mt-4 max-w-[20ch] text-[2rem] font-black leading-[1.12] tracking-[-0.03em] text-[var(--gmt-dark)] sm:mt-6 sm:max-w-3xl sm:text-5xl sm:leading-[1.08] sm:tracking-[-0.035em] lg:text-[3.9rem]"
             >
               Internet cepat dan stabil untuk
               <span className="text-[var(--gmt-primary)]"> setiap kebutuhan.</span>
@@ -59,7 +59,7 @@ export default function Hero() {
 
             <motion.p
               variants={fadeUp}
-              className="mt-5 max-w-2xl text-base leading-8 text-[var(--gmt-gray)] sm:mt-6 sm:text-lg"
+              className="mt-4 max-w-2xl text-[15px] leading-7 text-[var(--gmt-gray)] sm:mt-6 sm:text-lg sm:leading-8"
             >
               Dari belajar dan bekerja hingga streaming serta kebutuhan bisnis,
               Garuda Media Telematika 20 Jombang menghadirkan koneksi andal
@@ -68,20 +68,20 @@ export default function Hero() {
 
             <motion.div
               variants={fadeUp}
-              className="mt-7 flex flex-col gap-3 sm:mt-8 sm:flex-row"
+              className="mt-6 flex flex-col gap-2.5 sm:mt-8 sm:flex-row sm:gap-3"
             >
               <a
                 href={getWhatsAppUrl()}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-[var(--gmt-orange)] px-6 py-3.5 text-sm font-bold text-white shadow-[0_12px_28px_rgba(245,158,11,0.28)] transition hover:-translate-y-0.5 hover:bg-[var(--gmt-orange-dark)] sm:px-7"
+                className="inline-flex min-h-11 items-center justify-center gap-2 rounded-xl bg-[var(--gmt-orange)] px-5 py-2.5 text-sm font-bold text-white shadow-[0_6px_16px_rgba(245,158,11,0.2)] transition hover:-translate-y-0.5 hover:bg-[var(--gmt-orange-dark)] sm:min-h-12 sm:px-7 sm:py-3.5 sm:shadow-[0_12px_28px_rgba(245,158,11,0.28)]"
               >
                 Pasang WiFi Sekarang
                 <ArrowRight size={18} aria-hidden="true" />
               </a>
               <Link
                 href="/paket#daftar-paket"
-                className="inline-flex min-h-12 items-center justify-center rounded-xl border border-[var(--gmt-primary)]/40 bg-white/70 px-6 py-3.5 text-sm font-bold text-[var(--gmt-primary)] transition hover:border-[var(--gmt-primary)] hover:bg-[var(--gmt-soft-blue)] sm:px-7"
+                className="inline-flex min-h-11 items-center justify-center rounded-xl border border-[var(--gmt-primary)]/30 bg-transparent px-5 py-2.5 text-sm font-bold text-[var(--gmt-primary)] transition hover:border-[var(--gmt-primary)] hover:bg-[var(--gmt-soft-blue)] sm:min-h-12 sm:bg-white/70 sm:px-7 sm:py-3.5"
               >
                 Lihat Paket Internet
               </Link>
@@ -89,16 +89,16 @@ export default function Hero() {
 
             <motion.ul
               variants={fadeUp}
-              className="mt-7 grid grid-cols-1 gap-3 min-[400px]:grid-cols-3 sm:mt-8"
+              className="mt-6 grid grid-cols-3 gap-2 sm:mt-8 sm:gap-3"
             >
               {trustPoints.map((item) => {
                 const Icon = item.icon;
                 return (
                   <li
                     key={item.label}
-                    className="flex items-center gap-2 text-xs font-semibold text-slate-600 sm:text-sm"
+                    className="flex items-start gap-1.5 text-[11px] font-semibold leading-4 text-slate-600 sm:items-center sm:gap-2 sm:text-sm"
                   >
-                    <span className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-[var(--gmt-soft-blue)] text-[var(--gmt-primary)]">
+                    <span className="inline-flex h-5 w-5 shrink-0 items-center justify-center text-[var(--gmt-primary)] sm:h-8 sm:w-8 sm:rounded-lg sm:bg-[var(--gmt-soft-blue)]">
                       <Icon size={16} aria-hidden="true" />
                     </span>
                     {item.label}
