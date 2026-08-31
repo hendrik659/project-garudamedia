@@ -147,10 +147,10 @@ export default function Navbar() {
               aria-expanded={isMenuOpen}
               aria-controls="mobile-navigation"
               onClick={() => setIsMenuOpen((current) => !current)}
-              className={`inline-flex h-11 w-11 items-center justify-center rounded-xl border shadow-sm transition duration-300 ease-in-out lg:hidden ${
-                hasSolidBackground
-                  ? "border-slate-200 bg-white text-[var(--gmt-dark)] hover:border-[var(--gmt-primary)] hover:text-[var(--gmt-primary)]"
-                  : "border-white/40 bg-[rgba(11,31,51,0.72)] text-white shadow-[0_6px_18px_rgba(11,31,51,0.2)] backdrop-blur-md hover:bg-[rgba(11,31,51,0.86)]"
+              className={`inline-flex h-11 w-11 items-center justify-center rounded-lg bg-transparent transition-colors duration-300 ease-in-out focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--gmt-primary)] lg:hidden ${
+                usesLightNavigation
+                  ? "text-white hover:text-sky-200"
+                  : "text-[var(--gmt-dark)] hover:text-[var(--gmt-primary)]"
               }`}
             >
               <span
