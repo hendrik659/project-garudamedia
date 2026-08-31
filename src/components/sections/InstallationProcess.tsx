@@ -26,7 +26,7 @@ const steps = [
     number: "01",
     title: "Konsultasi Paket",
     description:
-      "Hubungi tim Garuda Media Telematika 2.0 Jombang untuk mendapatkan rekomendasi paket internet sesuai kebutuhan.",
+      "Hubungi tim Garuda Media Telematika 20 Jombang untuk mendapatkan rekomendasi paket internet sesuai kebutuhan.",
     icon: MessageCircle,
   },
   {
@@ -83,7 +83,7 @@ export default function InstallationProcess() {
             Proses Berlangganan
           </p>
           <h2 className="mt-3 text-3xl font-black tracking-tight text-[var(--gmt-dark)] sm:text-4xl lg:text-5xl">
-            Mulai Menggunakan Internet Garuda Media Telematika 2.0 Jombang
+            Mulai Menggunakan Internet Garuda Media Telematika 20 Jombang
           </h2>
           <p className="mx-auto mt-5 max-w-2xl leading-7 text-[var(--gmt-gray)] sm:text-lg">
             Proses pemasangan mudah, cepat, dan didampingi teknisi profesional.

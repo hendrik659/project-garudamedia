@@ -8,7 +8,7 @@ import { siteConfig } from "@/config/site";
 
 const title = "Paket Internet Jombang";
 const description =
-  "Pilih paket internet Garuda Media Telematika 2.0 Jombang mulai 15 Mbps hingga 500 Mbps dengan koneksi stabil untuk rumah dan bisnis di Kabupaten Jombang.";
+  "Pilih paket internet Garuda Media Telematika 20 Jombang mulai 15 Mbps hingga 500 Mbps dengan koneksi stabil untuk rumah dan bisnis di Kabupaten Jombang.";
 
 export const metadata: Metadata = {
   title,

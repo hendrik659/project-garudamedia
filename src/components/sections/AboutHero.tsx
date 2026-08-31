@@ -67,7 +67,7 @@ export default function AboutHero() {
             transition={{ duration: 0.5, ease: "easeOut" }}
             className="inline-flex max-w-full rounded-full border border-white/15 bg-white/10 px-4 py-2 text-xs font-bold uppercase leading-5 tracking-[0.14em] text-sky-100 backdrop-blur sm:text-sm sm:tracking-[0.16em]"
           >
-            Tentang Garuda Media Telematika 2.0
+            Tentang Garuda Media Telematika 20
           </motion.p>
 
           <motion.h1
@@ -88,7 +88,7 @@ export default function AboutHero() {
             transition={{ duration: 0.65, delay: 0.22, ease: "easeOut" }}
             className="mt-6 max-w-2xl text-base leading-7 text-white/80 sm:text-lg sm:leading-8"
           >
-            Garuda Media Telematika 2.0 Jombang adalah penyedia layanan internet
+            Garuda Media Telematika 20 Jombang adalah penyedia layanan internet
             dan solusi teknologi yang memberikan koneksi stabil, layanan
             profesional, serta dukungan terbaik untuk masyarakat dan bisnis.
           </motion.p>

@@ -1,8 +1,8 @@
-# Garuda Media Telematika 2.0 Jombang
+# Garuda Media Telematika 20 Jombang
 
-Production website for Garuda Media Telematika 2.0 Jombang, built with Next.js App Router, React, TypeScript, and Tailwind CSS.
+Production website for Garuda Media Telematika 20 Jombang, built with Next.js App Router, React, TypeScript, and Tailwind CSS.
 
-Production domain: [https://garudamedia.net](https://garudamedia.net)
+The production domain is configured through `NEXT_PUBLIC_SITE_URL`.
 
 ## Local setup
 
@@ -13,7 +13,12 @@ npm install
 npm run dev
 ```
 
-Open the development URL printed by the Next.js CLI. No environment variables are currently required; the canonical production domain is centralized in `src/config/site.ts`.
+Copy `.env.example` to `.env.local`, then set `NEXT_PUBLIC_SITE_URL` to the
+deployment domain. Open the development URL printed by the Next.js CLI.
+
+The deployment environment must define the same variable before running the
+production build. Metadata, canonical URLs, Open Graph, sitemap, robots, and
+structured data all read from this single source.
 
 ## Project structure
 

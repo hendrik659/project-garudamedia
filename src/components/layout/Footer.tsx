@@ -27,7 +27,7 @@ export default function Footer() {
           <div>
             <Link
               href="/"
-              aria-label="Garuda Media Telematika 2.0 Jombang - beranda"
+              aria-label="Garuda Media Telematika 20 Jombang - beranda"
               className="inline-block rounded-md bg-white px-3 py-2"
             >
               <Image
@@ -45,13 +45,13 @@ export default function Footer() {
             <div className="mt-6 flex gap-3">
               <SocialLink
                 href={contact.instagram}
-                label="Instagram Garuda Media Telematika 2.0 Jombang"
+                label="Instagram Garuda Media Telematika 20 Jombang"
               >
                 <FaInstagram aria-hidden="true" />
               </SocialLink>
               <SocialLink
                 href={contact.tiktok}
-                label="TikTok Garuda Media Telematika 2.0 Jombang"
+                label="TikTok Garuda Media Telematika 20 Jombang"
               >
                 <FaTiktok aria-hidden="true" />
               </SocialLink>
@@ -82,7 +82,7 @@ export default function Footer() {
             <h2 className="text-base font-bold">Hubungi Kami</h2>
             <address className="mt-5 flex flex-col gap-4 not-italic">
               <ContactLink href={whatsappUrl} icon={<MessageCircle size={18} />} external>
-                WhatsApp Garuda Media Telematika 2.0 Jombang
+                WhatsApp Garuda Media Telematika 20 Jombang
               </ContactLink>
               <ContactLink href={phoneHref} icon={<Phone size={18} />}>
                 {contact.phone}
@@ -106,7 +106,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <Container className="flex flex-col gap-2 py-5 text-center text-xs text-white/50 sm:flex-row sm:items-center sm:justify-between sm:text-left">
           <p>
-            © {new Date().getFullYear()} Garuda Media Telematika 2.0 Jombang. Hak cipta dilindungi.
+            © {new Date().getFullYear()} Garuda Media Telematika 20 Jombang. Hak cipta dilindungi.
           </p>
           <p>{siteConfig.company} · {contact.address}</p>
         </Container>

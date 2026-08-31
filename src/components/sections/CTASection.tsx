@@ -25,7 +25,7 @@ export default function CTASection() {
             Siap menikmati internet yang lebih andal?
           </h2>
           <p className="mx-auto mt-5 max-w-2xl leading-7 text-white/85 sm:text-lg">
-            Ceritakan kebutuhan Anda. Tim Garuda Media Telematika 2.0 Jombang
+            Ceritakan kebutuhan Anda. Tim Garuda Media Telematika 20 Jombang
             akan membantu mengecek area dan memilihkan paket yang tepat.
           </p>
           <ul className="mt-7 flex flex-wrap justify-center gap-3">

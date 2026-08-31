@@ -9,9 +9,9 @@ import WhyChoose from "@/components/sections/WhyChooseUs";
 import { siteConfig } from "@/config/site";
 
 const title =
-  "Garuda Media Telematika 2.0 Jombang | Internet Cepat & Stabil";
+  "Garuda Media Telematika 20 Jombang | Internet Cepat & Stabil";
 const description = siteConfig.description;
-const socialTitle = "Garuda Media Telematika 2.0 Jombang";
+const socialTitle = "Garuda Media Telematika 20 Jombang";
 const socialDescription =
   "Internet cepat dan stabil untuk rumah dan bisnis di Kabupaten Jombang.";
 

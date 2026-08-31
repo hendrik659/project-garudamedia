@@ -10,13 +10,13 @@ import Section from "../layout/Section";
 
 const includedBenefits = ["Unlimited tanpa FUP", "Instalasi profesional", "Dukungan pelanggan"];
 
-const mobilePackageOrder = ["30 Mbps", "15 Mbps", "50 Mbps", "20 Mbps", "100 Mbps", "200 Mbps", "500 Mbps"];
+const mobilePackageOrder = ["20 Mbps", "15 Mbps", "30 Mbps", "50 Mbps", "100 Mbps", "200 Mbps", "500 Mbps"];
 
 const packageLayoutBySpeed: Record<string, string> = {
   "15 Mbps": "order-2 lg:order-1 lg:col-span-4",
-  "20 Mbps": "order-4 lg:order-4 lg:col-span-3",
-  "30 Mbps": "order-1 lg:order-2 lg:col-span-4",
-  "50 Mbps": "order-3 lg:order-3 lg:col-span-4",
+  "20 Mbps": "order-1 lg:order-2 lg:col-span-4",
+  "30 Mbps": "order-3 lg:order-4 lg:col-span-3",
+  "50 Mbps": "order-4 lg:order-3 lg:col-span-4",
   "100 Mbps": "order-5 lg:order-5 lg:col-span-3",
   "200 Mbps": "order-6 lg:order-6 lg:col-span-3",
   "500 Mbps": "order-7 lg:order-7 lg:col-span-3",
@@ -111,7 +111,7 @@ export default function PricingGrid() {
 
         <p className="mx-auto mt-8 max-w-3xl text-center text-xs leading-5 text-[var(--gmt-gray)]">
           Harga dapat menyesuaikan hasil survei lokasi dan kebijakan pemasangan.
-          Konfirmasi detail akhir kepada tim Garuda Media Telematika 2.0 Jombang
+          Konfirmasi detail akhir kepada tim Garuda Media Telematika 20 Jombang
           sebelum berlangganan.
         </p>
       </Container>

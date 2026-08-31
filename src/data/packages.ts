@@ -18,15 +18,15 @@ export const packages = [
     name: "Basic",
     speed: "20 Mbps",
     price: "145.000",
-    description: "Pilihan hemat untuk aktivitas digital keluarga.",
-    popular: false,
+    description: "Paket favorit pelanggan untuk aktivitas digital keluarga.",
+    popular: true,
   },
   {
     name: "Favorite",
     speed: "30 Mbps",
     price: "183.000",
-    description: "Paket paling diminati untuk keluarga modern.",
-    popular: true,
+    description: "Koneksi seimbang untuk kebutuhan keluarga modern.",
+    popular: false,
   },
   {
     name: "Family",
@@ -61,6 +61,6 @@ export const packages = [
 export const featuredPackages = packages.filter(
   (internetPackage) =>
     internetPackage.speed === "15 Mbps" ||
-    internetPackage.speed === "30 Mbps" ||
+    internetPackage.speed === "20 Mbps" ||
     internetPackage.speed === "100 Mbps",
 );
