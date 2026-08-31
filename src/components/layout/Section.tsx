@@ -1,39 +1,21 @@
-import React from "react";
-
+import type { ElementType, ReactNode } from "react";
 
 interface SectionProps {
-
-children: React.ReactNode;
-
-className?: string;
-
+  children: ReactNode;
+  className?: string;
+  as?: ElementType;
+  id?: string;
 }
 
-
 export default function Section({
-
-children,
-
-className = "",
-
+  children,
+  className = "",
+  as: Component = "section",
+  id,
 }: SectionProps) {
-
-
-return (
-
-<section
-className={`
-py-16
-md:py-24
-${className}
-`}
->
-
-{children}
-
-</section>
-
-);
-
-
+  return (
+    <Component id={id} className={`py-16 sm:py-20 lg:py-24 ${className}`}>
+      {children}
+    </Component>
+  );
 }
