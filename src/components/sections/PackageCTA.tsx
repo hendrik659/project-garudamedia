@@ -24,7 +24,7 @@ export default function PackageCTA() {
           </h2>
           <p className="mx-auto mt-5 max-w-2xl leading-7 text-white/85 sm:text-lg">
             Sampaikan jumlah perangkat dan kebutuhan harian Anda. Tim Garuda Media
-            Telematika 2.0 Jombang siap memberi rekomendasi tanpa biaya konsultasi.
+            Telematika 20 Jombang siap memberi rekomendasi tanpa biaya konsultasi.
           </p>
           <a
             href={getWhatsAppUrl()}

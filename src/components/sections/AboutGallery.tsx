@@ -7,7 +7,7 @@ import Container from "../layout/Container";
 
 const featuredActivity = {
   src: "/images/about/about-installation.jpg",
-  alt: "Teknisi Garuda Media Telematika 2.0 memasang perangkat internet di lokasi pelanggan",
+  alt: "Teknisi Garuda Media Telematika 20 memasang perangkat internet di lokasi pelanggan",
   label: "Layanan lapangan",
   title: "Instalasi jaringan profesional",
   description:
@@ -17,7 +17,7 @@ const featuredActivity = {
 const supportingActivities = [
   {
     src: "/images/about/about-service.jpg",
-    alt: "Tim Garuda Media Telematika 2.0 melayani pelanggan di kantor",
+    alt: "Tim Garuda Media Telematika 20 melayani pelanggan di kantor",
     label: "Pelayanan pelanggan",
     title: "Tim yang siap membantu",
     description: "Memberikan solusi internet sesuai kebutuhan pelanggan.",
@@ -25,7 +25,7 @@ const supportingActivities = [
   },
   {
     src: "/images/about/about-network.jpg",
-    alt: "Teknisi Garuda Media Telematika 2.0 membangun jaringan internet outdoor",
+    alt: "Teknisi Garuda Media Telematika 20 membangun jaringan internet outdoor",
     label: "Infrastruktur jaringan",
     title: "Koneksi menjangkau pelanggan",
     description: "Membangun jaringan stabil untuk rumah dan bisnis.",
@@ -33,7 +33,7 @@ const supportingActivities = [
   },
   {
     src: "/images/about/about-team.jpg",
-    alt: "Tim teknisi Garuda Media Telematika 2.0 berkolaborasi di lapangan",
+    alt: "Tim teknisi Garuda Media Telematika 20 berkolaborasi di lapangan",
     label: "Tim profesional",
     title: "Kolaborasi menjaga kualitas",
     description: "Kerja sama tim untuk memberikan layanan terbaik.",

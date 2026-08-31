@@ -62,7 +62,7 @@ export default function Hero() {
               className="mt-5 max-w-2xl text-base leading-8 text-[var(--gmt-gray)] sm:mt-6 sm:text-lg"
             >
               Dari belajar dan bekerja hingga streaming serta kebutuhan bisnis,
-              Garuda Media Telematika 2.0 Jombang menghadirkan koneksi andal
+              Garuda Media Telematika 20 Jombang menghadirkan koneksi andal
               dengan dukungan teknisi profesional.
             </motion.p>
 
@@ -117,7 +117,7 @@ export default function Hero() {
             <div className="relative aspect-[4/3] overflow-hidden rounded-[1.75rem] border-4 border-white bg-slate-100 shadow-[0_30px_70px_rgba(11,31,51,0.2)] sm:rounded-[2.25rem]">
               <Image
                 src="/images/hero-gmt20.jpg"
-                alt="Ilustrasi jaringan internet Garuda Media Telematika 2.0 Jombang yang menghubungkan berbagai perangkat"
+                alt="Ilustrasi jaringan internet Garuda Media Telematika 20 Jombang yang menghubungkan berbagai perangkat"
                 fill
                 priority
                 sizes="(max-width: 1023px) 92vw, 46vw"

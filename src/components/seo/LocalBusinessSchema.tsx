@@ -4,7 +4,7 @@ import { siteConfig } from "@/config/site";
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  name: "Garuda Media Telematika 2.0 Jombang",
+  name: "Garuda Media Telematika 20 Jombang",
   description:
     "Provider internet dan layanan pemasangan CCTV untuk rumah dan bisnis di Kabupaten Jombang.",
   url: siteConfig.url,

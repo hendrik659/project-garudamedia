@@ -44,7 +44,7 @@ export default function AboutCompany() {
             <div className="relative aspect-[16/10] overflow-hidden rounded-[1.5rem] bg-slate-100 shadow-[0_24px_60px_rgba(11,31,51,0.14)] sm:rounded-[2rem]">
               <Image
                 src="/images/about-office.jpg"
-                alt="Kantor Garuda Media Telematika 2.0 Jombang sebagai pusat pelayanan pelanggan"
+                alt="Kantor Garuda Media Telematika 20 Jombang sebagai pusat pelayanan pelanggan"
                 width={1586}
                 height={992}
                 sizes="(max-width: 1023px) calc(100vw - 2rem), 46vw"
@@ -87,7 +87,7 @@ export default function AboutCompany() {
               Hadir lebih dekat untuk melayani Jombang.
             </h2>
             <p className="mt-6 text-base leading-8 text-[var(--gmt-gray)] sm:text-lg">
-              Garuda Media Telematika 2.0 hadir sebagai penyedia layanan internet
+              Garuda Media Telematika 20 hadir sebagai penyedia layanan internet
               dan solusi CCTV dengan kantor pelayanan yang mudah dijangkau oleh
               masyarakat Jombang dan sekitarnya.
             </p>
@@ -99,7 +99,7 @@ export default function AboutCompany() {
 
             <ul
               className="mt-8 space-y-4"
-              aria-label="Fokus layanan Garuda Media Telematika 2.0 Jombang"
+              aria-label="Fokus layanan Garuda Media Telematika 20 Jombang"
             >
               {highlights.map((highlight) => (
                 <li

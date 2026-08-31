@@ -9,7 +9,7 @@ import { siteConfig } from "@/config/site";
 
 const title = "Tentang Kami";
 const description =
-  "Mengenal Garuda Media Telematika 2.0 Jombang sebagai penyedia layanan internet cepat, stabil, dan terpercaya di Kabupaten Jombang.";
+  "Mengenal Garuda Media Telematika 20 Jombang sebagai penyedia layanan internet cepat, stabil, dan terpercaya di Kabupaten Jombang.";
 
 export const metadata: Metadata = {
   title,

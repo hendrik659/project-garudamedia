@@ -19,7 +19,7 @@ export const processSteps = [
     icon: "file",
     title: "Ajukan Pemasangan",
     description:
-      "Pelanggan mengajukan pemasangan WiFi Garuda Media Telematika 2.0 Jombang dan mengisi data pemasangan.",
+      "Pelanggan mengajukan pemasangan WiFi Garuda Media Telematika 20 Jombang dan mengisi data pemasangan.",
   },
   {
     step: "02",
@@ -33,7 +33,7 @@ export const processSteps = [
     icon: "map",
     title: "Cek Ketersediaan Jaringan",
     description:
-      "Tim Garuda Media Telematika 2.0 Jombang melakukan pengecekan ketersediaan jaringan di lokasi pelanggan.",
+      "Tim Garuda Media Telematika 20 Jombang melakukan pengecekan ketersediaan jaringan di lokasi pelanggan.",
   },
   {
     step: "04",

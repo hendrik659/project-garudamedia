@@ -37,7 +37,7 @@ export default function AboutCTA() {
               Mari temukan koneksi yang tepat untuk Anda.
             </h2>
             <p className="mt-5 max-w-2xl text-base leading-8 text-white/80 sm:text-lg">
-              Ceritakan kebutuhan internet Anda. Tim Garuda Media Telematika 2.0
+              Ceritakan kebutuhan internet Anda. Tim Garuda Media Telematika 20
               Jombang siap membantu memilih layanan yang sesuai untuk rumah
               maupun bisnis.
             </p>
@@ -59,7 +59,7 @@ export default function AboutCTA() {
           <div className="min-w-0 rounded-[1.5rem] border border-white/20 bg-white/10 p-5 shadow-[0_24px_55px_rgba(0,45,74,0.22)] backdrop-blur-sm sm:p-7">
             <p className="text-sm font-bold text-white/70">Siap berkonsultasi?</p>
             <p className="mt-2 text-xl font-extrabold text-white sm:text-2xl">
-              Hubungi tim Garuda Media Telematika 2.0 Jombang sekarang.
+              Hubungi tim Garuda Media Telematika 20 Jombang sekarang.
             </p>
             <div className="mt-6 flex flex-col gap-3">
               <a

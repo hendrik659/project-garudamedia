@@ -1,7 +1,7 @@
 export const contact = {
   whatsapp: "6282142804006",
   whatsappMessage:
-    "Halo Garuda Media Telematika 2.0 Jombang, saya ingin mendapatkan informasi layanan.",
+    "Halo Garuda Media Telematika 20 Jombang, saya ingin mendapatkan informasi layanan.",
   phone: "082142804006",
   email: "garuda.net2021@gmail.com",
   address: "Jombang, Jawa Timur",

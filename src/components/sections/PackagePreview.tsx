@@ -41,7 +41,7 @@ export default function PackagePreview() {
             >
               {item.popular && (
                 <span className="absolute right-5 top-5 rounded-full bg-[var(--gmt-primary)] px-3 py-1 text-[11px] font-bold uppercase tracking-wide text-white">
-                  Favorit
+                  Favorit Pelanggan
                 </span>
               )}
               <div className="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-[var(--gmt-soft-blue)] text-[var(--gmt-primary)]">

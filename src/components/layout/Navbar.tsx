@@ -1,7 +1,6 @@
 "use client";
 
 import { AnimatePresence, motion } from "framer-motion";
-import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -75,7 +74,7 @@ export default function Navbar() {
         >
           <Link
             href="/"
-            aria-label="Garuda Media Telematika 2.0 Jombang - kembali ke beranda"
+            aria-label="Garuda Media Telematika 20 Jombang - kembali ke beranda"
             className={`relative z-10 shrink-0 rounded-md transition-[filter] duration-300 ease-in-out ${
               hasSolidBackground
                 ? "drop-shadow-none"
@@ -144,17 +143,39 @@ export default function Navbar() {
             <button
               type="button"
               data-mobile-menu-button
-              aria-label={isMenuOpen ? "Tutup menu" : "Buka menu"}
+              aria-label={isMenuOpen ? "Close menu" : "Open menu"}
               aria-expanded={isMenuOpen}
               aria-controls="mobile-navigation"
               onClick={() => setIsMenuOpen((current) => !current)}
               className={`inline-flex h-11 w-11 items-center justify-center rounded-xl border shadow-sm transition duration-300 ease-in-out lg:hidden ${
-                usesLightNavigation
-                  ? "border-white/35 bg-white/10 text-white backdrop-blur hover:bg-white/20"
-                  : "border-slate-200 bg-white text-[var(--gmt-dark)] hover:border-[var(--gmt-primary)] hover:text-[var(--gmt-primary)]"
+                hasSolidBackground
+                  ? "border-slate-200 bg-white text-[var(--gmt-dark)] hover:border-[var(--gmt-primary)] hover:text-[var(--gmt-primary)]"
+                  : "border-white/40 bg-[rgba(11,31,51,0.72)] text-white shadow-[0_6px_18px_rgba(11,31,51,0.2)] backdrop-blur-md hover:bg-[rgba(11,31,51,0.86)]"
               }`}
             >
-              {isMenuOpen ? <X aria-hidden="true" size={23} /> : <Menu aria-hidden="true" size={23} />}
+              <span
+                aria-hidden="true"
+                className="relative block h-[18px] w-6"
+              >
+                <motion.span
+                  initial={false}
+                  animate={{ y: isMenuOpen ? 6 : 0, rotate: isMenuOpen ? 45 : 0 }}
+                  transition={{ duration: 0.3, ease: "easeInOut" }}
+                  className="absolute left-0 top-0 block h-0.5 w-6 origin-center rounded-full bg-current"
+                />
+                <motion.span
+                  initial={false}
+                  animate={{ opacity: isMenuOpen ? 0 : 1, scaleX: isMenuOpen ? 0 : 1 }}
+                  transition={{ duration: 0.3, ease: "easeInOut" }}
+                  className="absolute right-0 top-1.5 block h-0.5 w-4 origin-right rounded-full bg-current"
+                />
+                <motion.span
+                  initial={false}
+                  animate={{ y: isMenuOpen ? -6 : 0, rotate: isMenuOpen ? -45 : 0 }}
+                  transition={{ duration: 0.3, ease: "easeInOut" }}
+                  className="absolute bottom-1 block h-0.5 w-6 origin-center rounded-full bg-current"
+                />
+              </span>
             </button>
           </div>
         </nav>

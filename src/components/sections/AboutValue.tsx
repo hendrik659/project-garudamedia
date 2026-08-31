@@ -62,7 +62,7 @@ export default function AboutValue() {
       <Container>
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-sm font-extrabold uppercase tracking-[0.18em] text-[var(--gmt-primary)]">
-            Nilai Garuda Media Telematika 2.0 Jombang
+            Nilai Garuda Media Telematika 20 Jombang
           </p>
           <h2
             id="values-title"

@@ -42,7 +42,7 @@ export default function PackageHero() {
           className="max-w-2xl"
         >
           <p className="inline-flex rounded-full border border-white/15 bg-white/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.16em] text-sky-100 backdrop-blur sm:text-sm">
-            Paket Internet Garuda Media Telematika 2.0 Jombang
+            Paket Internet Garuda Media Telematika 20 Jombang
           </p>
           <h1
             id="package-hero-title"
