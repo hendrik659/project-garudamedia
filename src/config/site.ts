@@ -1,10 +1,7 @@
-const configuredSiteUrl = process.env.NEXT_PUBLIC_SITE_URL?.trim();
-
-if (!configuredSiteUrl) {
-  throw new Error("NEXT_PUBLIC_SITE_URL wajib diatur untuk metadata production.");
-}
-
-const siteUrl = configuredSiteUrl.replace(/\/+$/, "");
+const siteUrl = (
+  process.env.NEXT_PUBLIC_SITE_URL?.trim() ||
+  "https://garudamedia20jbg.net"
+).replace(/\/+$/, "");
 
 export const siteConfig = {
   name: "Garuda Media Telematika 20 Jombang",
@@ -19,12 +16,13 @@ export const siteConfig = {
     "Provider Internet Jombang",
     "Pasang WiFi Jombang",
     "Pemasangan CCTV Jombang",
+    "Internet Rumah Jombang",
     "Garuda Media Telematika 20 Jombang",
   ],
   openGraphImage: {
     url: `${siteUrl}/images/hero-gmt20.jpg`,
-    width: 1024,
-    height: 640,
-    alt: "Layanan internet Garuda Media Telematika 20 Jombang",
+    width: 1200,
+    height: 630,
+    alt: "Garuda Media Telematika 20 Jombang",
   },
 } as const;
